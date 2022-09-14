@@ -170,7 +170,7 @@
   /* Other Variuables */
   --transition-speed: 200ms;
   --logo-transition-speed: 300ms;
-  --title-height: 20rem;
+  --title-height: 5rem;
   --navbar-width: 5rem;
   --radius: 0.5rem;
 }

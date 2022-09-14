@@ -692,6 +692,9 @@ footer {
 
 /* Small screens */
 @media only screen and (max-width: 850px) {
+  :root {
+    font-size: 12px;
+  }
   .navbar {
     top: 0;
     width: 100vw;
@@ -729,15 +732,6 @@ footer {
   }
   .title-section {
     margin: 0;
-  }
-  .title {
-    font-size: 3.75rem;
-  }
-  .sub-title {
-    font-size: calc(3.75rem * 0.585);
-  }
-  .title-subtext {
-    font-size: calc(3.75rem * 0.439);
   }
   .album {
     grid-template-columns: repeat(auto-fit, minmax(100%, max-content));
